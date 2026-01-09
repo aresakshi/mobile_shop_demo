@@ -1,0 +1,17 @@
+<div style="width:70%; margin:auto; padding:20px; display:flex; align-items:center;
+background: linear-gradient(to right, #1A2A6C, #162C5B, #1F3B7D);  color:white;
+margin-top: 200px;">
+
+<form action="/update" method="post" style="flex:1;">
+    <h3>Edit Mobile</h3>
+    <input type="hidden" name="id" value="<%= mobile.id %>">
+    Model Name: <input type="text" name="model_name" value="<%= mobile.model_name %>"><br>
+    Brand: <input type="text" name="brand" value="<%= mobile.brand %>"><br>
+    Price: <input type="number" name="price" value="<%= mobile.price %>"><br>
+    Stock: <input type="number" name="stock" value="<%= mobile.stock %>"><br><br>
+    <button type="submit">Update</button>
+    <a href="/" style="color:white; margin-left:10px;">Cancel</a>
+   
+</form>
+
+</div>

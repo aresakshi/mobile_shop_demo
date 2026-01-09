@@ -1,0 +1,18 @@
+<div style="width:70%; margin:auto; padding:20px; display:flex; align-items:center;
+background: linear-gradient(to right, #1A2A6C, #162C5B, #1F3B7D);  color:white;
+margin-top: 200px;">
+
+<% if(mode === "view"){ %>
+    <div style="flex:1;">
+        <p>Model: <%= mobile.model_name %></p>
+        <p>Brand: <%= mobile.brand %></p>
+        <p>Price: <%= mobile.price %></p>
+        <p>Stock: <%= mobile.stock %></p>
+    </div>
+    <div>
+        <a href="/edit/<%= mobile.id %>" style="color:white; margin-right:10px;">Edit</a>
+        <a href="/delete/<%= mobile.id %>" style="color:white;">Delete</a>
+    </div>
+<% } %>
+
+</div>
