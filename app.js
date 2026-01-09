@@ -5,10 +5,10 @@ const util = require("util");
 require("dotenv").config();
 
 const conn = mysql.createConnection({
-    host: "bco4bolv6aqbdzjujadi-mysql.services.clever-cloud.com",
-    user: "uu3ade5c9j62djhg",
-    password: "uvQAYfiaFPslo8TsafUR",
-    database: "bco4bolv6aqbdzjujadi"
+    host: "bvylcgp1tipwb7v3ptrp-mysql.services.clever-cloud.com",
+    user: "ugvzc7tkrbule5hs",
+    password: "1epPyStOwpftZF73eGdb",
+    database: "bvylcgp1tipwb7v3ptrp"
 });
 
 const app = express();
